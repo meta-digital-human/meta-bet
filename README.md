@@ -184,6 +184,14 @@ observationSource = """
                 _scoreTeamB
             );
         }
+        
+        emit RequestMultipleFulfilled(
+            _requestId,
+            _fixtureId,
+            _isFinish,
+            _scoreTeamA,
+            _scoreTeamB
+        );
     }
 
 
